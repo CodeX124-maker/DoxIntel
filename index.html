@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DoxIntel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Logo du site -->
+        <header>
+            <img src="vampire_logo.png" alt="Logo Vampire" class="logo">
+            <h1>DoxIntel</h1>
+        </header>
+
+        <!-- Barre de recherche -->
+        <section class="search-bar">
+            <input type="text" placeholder="Rechercher..." class="search-input">
+            <button type="button" class="search-btn">Rechercher</button>
+        </section>
+
+        <!-- Section pour S'inscrire / Se Connecter -->
+        <section class="auth">
+            <div class="register">
+                <h2>S'inscrire</h2>
+                <form action="#" method="post">
+                    <input type="text" placeholder="Nom d'utilisateur" required>
+                    <input type="email" placeholder="Email" required>
+                    <input type="password" placeholder="Mot de passe" required>
+                    <button type="submit">S'inscrire</button>
+                </form>
+            </div>
+
+            <div class="login">
+                <h2>Se connecter</h2>
+                <form action="#" method="post">
+                    <input type="text" placeholder="Nom d'utilisateur ou Email" required>
+                    <input type="password" placeholder="Mot de passe" required>
+                    <button type="submit">Se connecter</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Section Ajouter un Paste -->
+        <section class="paste">
+            <h2>Ajouter un Paste</h2>
+            <form action="#" method="post">
+                <textarea placeholder="Tapez votre texte ici..." rows="8" required></textarea>
+                <button type="submit">Poster</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>

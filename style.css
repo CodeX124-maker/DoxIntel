@@ -1,0 +1,107 @@
+/* Appliquer un fond noir à toute la page */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* Style pour l'en-tête et le logo */
+header {
+    margin-bottom: 50px;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+h1 {
+    font-size: 3em;
+    margin-top: 10px;
+}
+
+/* Style pour la barre de recherche */
+.search-bar {
+    margin-bottom: 40px;
+}
+
+.search-input {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-btn {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style pour les formulaires d'inscription et de connexion */
+.auth {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.auth div {
+    width: 45%;
+}
+
+.auth h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.auth input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.auth button {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style pour la section ajouter un paste */
+.paste h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.paste textarea {
+    width: 80%;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    resize: none;
+    margin-bottom: 15px;
+}
+
+.paste button {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
